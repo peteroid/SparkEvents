@@ -24,7 +24,7 @@ def parse_dir(path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 1:
-        PATH = os.path.join("smaple_data")
+        PATH = os.path.join("sample_data")
     else:
         PATH = os.path.join(sys.argv[1])
     parse_dir(PATH)
