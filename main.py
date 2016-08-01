@@ -28,3 +28,4 @@ if __name__ == "__main__":
     else:
         PATH = os.path.join(sys.argv[1])
     parse_dir(PATH)
+    
